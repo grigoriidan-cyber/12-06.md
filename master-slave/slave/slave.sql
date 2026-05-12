@@ -1,0 +1,6 @@
+CHANGE REPLICATION SOURCE TO
+    SOURCE_HOST='mysql_master',
+    SOURCE_USER='repl',
+    SOURCE_PASSWORD='slavepass',
+    SOURCE_SSL=0;
+START REPLICA;
